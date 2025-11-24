@@ -1,0 +1,11 @@
+name = "cloudedging"
+
+# This is the compatibility date the error log asked for.
+compatibility_date = "2025-11-24"
+
+# --- This is the crucial part for a static site ---
+# This tells Wrangler that your project IS a static site.
+[site]
+# The 'bucket' is the directory containing your static files (index.html, css/, etc.).
+# Since all your files are in the main folder, we use "."
+bucket = "."
