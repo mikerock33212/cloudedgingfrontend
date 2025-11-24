@@ -1,6 +1,6 @@
 {
     // This name MUST match what the CI system expects from your previous error logs.
-    "name": "cloudedging-homepage",
+    "name": "cloudedging",
   
     // This provides the compatibility date that the build system requires.
     "compatibility_date": "2025-11-24",
