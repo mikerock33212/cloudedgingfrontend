@@ -3,6 +3,8 @@ name = "cloudedging"
 # This provides the compatibility date the error log requires.
 compatibility_date = "2025-11-24"
 
+main = "workers-site/index.js"
+
 # This tells Wrangler that your project IS a static site and where to find the files.
 [site]
 bucket = "."
